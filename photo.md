@@ -1,13 +1,14 @@
 # Photo
 
 ## Create a photo
-* ```POST /photo```
-* Body: ```files=filecontents```
+* `POST /photo`
+* Body: `files=filecontents`
 
 ## Get a photo
-* ```GET /photo/gV968r3bhk```
+* `GET /photo/gV968r3bhk`
+
 Returns the following:
-```
+```json
 {
    "id":"163030",
    "title":"Penguins",
@@ -24,10 +25,11 @@ Returns the following:
 ```
 
 ## Update a photo
-* ```PUT /photo/gV968r3bhk```
+* `PUT /photo/gV968r3bhk`
 * Body: ```title=hello```
+
 Returns the following:
-```
+```json
 {
    "id":"163030",
    "title":"hello",
@@ -44,9 +46,10 @@ Returns the following:
 ```
 
 ## Delete a photo
-* ```DELETE /photo/gV968r3bhk```
+* `DELETE /photo/gV968r3bhk`
+
 Returns the following:
-```
+```json
 {
    "message": "The photo is succesfully deleted"
 }
