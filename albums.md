@@ -6,7 +6,7 @@
    * name
    * public `1 or 0`
 
-The Content-Type header must be defined: `Content-Type: application/x-www-form-urlencoded`.
+*Note*: The Content-Type header must be defined: `Content-Type: application/x-www-form-urlencoded`.
 
 Returns the following:
 ```json

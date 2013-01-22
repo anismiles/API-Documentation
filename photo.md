@@ -1,9 +1,26 @@
 # Photo
 
-## Create a photo
+## Create / upload a photo
 * `POST /photo`
 * Argument:
    * files `contents of the file`
+
+Returns the following:
+```json
+{
+   "id": "163030",
+   "title": "Penguins",
+   "file_name": "62de5288061eca6a9e296f1726810cca.jpg",
+   "views": "1",
+   "hash": "gV968r3bhk",
+   "url": {
+      "small": "http://static.dyp.im/gV968r3bhk/small/62de5288061eca6a9e296f1726810cca.jpg",
+      "medium": "http://static.dyp.im/gV968r3bhk/medium/62de5288061eca6a9e296f1726810cca.jpg",
+      "large": "http://static.dyp.im/gV968r3bhk/large/62de5288061eca6a9e296f1726810cca.jpg",
+      "full": "http://static.dyp.im/gV968r3bhk/62de5288061eca6a9e296f1726810cca.jpg"
+   }
+}
+```
 
 ## Get a photo
 * `GET /photo/gV968r3bhk`
@@ -11,16 +28,16 @@
 Returns the following:
 ```json
 {
-   "id":"163030",
-   "title":"Penguins",
-   "file_name":"62de5288061eca6a9e296f1726810cca.jpg",
-   "views":"1",
-   "hash":"gV968r3bhk",
-   "url":{
-      "small":"http:\/\/static.dyp.im\/gV968r3bhk\/small\/62de5288061eca6a9e296f1726810cca.jpg",
-      "medium":"http:\/\/static.dyp.im\/gV968r3bhk\/medium\/62de5288061eca6a9e296f1726810cca.jpg",
-      "large":"http:\/\/static.dyp.im\/gV968r3bhk\/large\/62de5288061eca6a9e296f1726810cca.jpg",
-      "full":"http:\/\/static.dyp.im\/gV968r3bhk\/62de5288061eca6a9e296f1726810cca.jpg"
+   "id": "163030",
+   "title": "Penguins",
+   "file_name": "62de5288061eca6a9e296f1726810cca.jpg",
+   "views": "1",
+   "hash": "gV968r3bhk",
+   "url": {
+      "small": "http://static.dyp.im/gV968r3bhk/small/62de5288061eca6a9e296f1726810cca.jpg",
+      "medium": "http://static.dyp.im/gV968r3bhk/medium/62de5288061eca6a9e296f1726810cca.jpg",
+      "large": "http://static.dyp.im/gV968r3bhk/large/62de5288061eca6a9e296f1726810cca.jpg",
+      "full": "http://static.dyp.im/gV968r3bhk/62de5288061eca6a9e296f1726810cca.jpg"
    }
 }
 ```
@@ -33,16 +50,16 @@ Returns the following:
 Returns the following:
 ```json
 {
-   "id":"163030",
-   "title":"hello",
-   "file_name":"62de5288061eca6a9e296f1726810cca.jpg",
-   "views":"1",
-   "hash":"gV968r3bhk",
-   "url":{
-      "small":"http:\/\/static.dyp.im\/gV968r3bhk\/small\/62de5288061eca6a9e296f1726810cca.jpg",
-      "medium":"http:\/\/static.dyp.im\/gV968r3bhk\/medium\/62de5288061eca6a9e296f1726810cca.jpg",
-      "large":"http:\/\/static.dyp.im\/gV968r3bhk\/large\/62de5288061eca6a9e296f1726810cca.jpg",
-      "full":"http:\/\/static.dyp.im\/gV968r3bhk\/62de5288061eca6a9e296f1726810cca.jpg"
+   "id": "163030",
+   "title": "hello",
+   "file_name": "62de5288061eca6a9e296f1726810cca.jpg",
+   "views": "1",
+   "hash": "gV968r3bhk",
+   "url": {
+      "small": "http://static.dyp.im/gV968r3bhk/small/62de5288061eca6a9e296f1726810cca.jpg",
+      "medium": "http://static.dyp.im/gV968r3bhk/medium/62de5288061eca6a9e296f1726810cca.jpg",
+      "large": "http://static.dyp.im/gV968r3bhk/large/62de5288061eca6a9e296f1726810cca.jpg",
+      "full": "http://static.dyp.im/gV968r3bhk/62de5288061eca6a9e296f1726810cca.jpg"
    }
 }
 ```
