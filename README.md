@@ -10,4 +10,4 @@ e.g.: `https://api.dumpyourphoto.com/v1/photo/somerandomhash.json?api_key=yourke
 ## Table of Contents
 * [Photo](https://github.com/DumpYourPhoto/API-Documentation/photo.md)
 * [Albums](https://github.com/DumpYourPhoto/API-Documentation/albums.md)
-* [Photos](https://github.com/DumpYourPhoto/API-Documentation/album/photos.php)
+* [Photos](https://github.com/DumpYourPhoto/API-Documentation/album/photos.md)
