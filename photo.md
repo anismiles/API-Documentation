@@ -2,7 +2,8 @@
 
 ## Create a photo
 * `POST /photo`
-* Body: `files=filecontents`
+* Argument:
+   * files `contents of the file`
 
 ## Get a photo
 * `GET /photo/gV968r3bhk`
@@ -26,7 +27,8 @@ Returns the following:
 
 ## Update a photo
 * `PUT /photo/gV968r3bhk`
-* Body: ```title=hello```
+* Argument:
+   * title
 
 Returns the following:
 ```json
