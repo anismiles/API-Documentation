@@ -8,6 +8,6 @@ The standard response format is JSON, you can specify the format by adding `.xml
 e.g.: `https://api.dumpyourphoto.com/v1/photo/somerandomhash.json?api_key=yourkeyhere`.
 
 ## Table of Contents
-* [Photo](https://github.com/DumpYourPhoto/API-Documentation/blob/master/photos.md)
+* [Photo](https://github.com/DumpYourPhoto/API-Documentation/blob/master/photo.md)
 * [Albums](https://github.com/DumpYourPhoto/API-Documentation/blob/master/albums.md)
 * [Photos](https://github.com/DumpYourPhoto/API-Documentation/blob/master/albums/photos.md)
