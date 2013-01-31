@@ -31,11 +31,11 @@ Returns the following:
 ```json
 [
    {
-      "photo_hash": "s6MmnvNc8U",
-      "photo_file_name": "16e71df9978417eb10218b68d15308c7.jpg",
-      "photo_id": "163027",
-      "photo_title": "Tulips",
-      "photo_views": "2",
+      "hash": "s6MmnvNc8U",
+      "file_name": "16e71df9978417eb10218b68d15308c7.jpg",
+      "id": "163027",
+      "title": "Tulips",
+      "views": "2",
       "url": {
          "small": "http://static.dyp.im/s6MmnvNc8U/small/16e71df9978417eb10218b68d15308c7.jpg",
          "medium": "http://static.dyp.im/s6MmnvNc8U/medium/16e71df9978417eb10218b68d15308c7.jpg",
