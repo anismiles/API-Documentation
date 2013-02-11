@@ -1,4 +1,4 @@
-# DRAFT: DumpYourPhoto API Documentation
+# DumpYourPhoto API Documentation
 
 ## Making a request
 The API can be found at `https://api.dumpyourphoto.com/v1`. 
