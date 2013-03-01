@@ -5,6 +5,8 @@
 * Argument:
    * files `content of the files`
 
+*Note*: You might need to specify `Content-Type: multipart/form-data`.
+
 Returns the following:
 ```json
 [
